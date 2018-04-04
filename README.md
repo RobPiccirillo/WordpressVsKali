@@ -12,7 +12,9 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+  
   <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/GargantuanBelatedHedgehog' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
+  
   - [ ] Steps to recreate: 
 	1. Go to wordpress forum
 	2. Make a comment with the XSS code (must be larger than 64kilobytes).
@@ -28,7 +30,9 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
-  <div class='gfyitem' data-id=ScornfulShimmeringHornbill></div>
+  
+<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/ScornfulShimmeringHornbill' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>  
+
   - [ ] Steps to recreate:
   	1. Edit any plugins name to be some form of script (contained within script tags)
 	2. Navigate to to wp-admin/update-core.php
