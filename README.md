@@ -6,12 +6,13 @@ Time spent: **X** hours spent in total
 
 ## Pentesting Report
 
-1. Unauthenticated Stored Cross-Site Scripting (XSS) (ID: 7945)
+1. Title: Unauthenticated Stored Cross-Site Scripting (XSS) (ID: 7945)
   - [ ] Summary: Uses an extremely long comment to truncate the comment when inserted into a database, thus allowing you to input a XSS injection.
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
+  
   - [ ] Steps to recreate: 
 	1. Go to wordpress forum
 	2. Make a comment with the XSS code (must be larger than 64kilobytes).
@@ -20,25 +21,29 @@ Time spent: **X** hours spent in total
 	4. When you go to the forum with the comment, a pop up will happen (if that's what you 		made your code do).
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
-1. wp_untrash_post_comments SQL Injection (ID: 8126)
-  - [ ] Summary: SQL injection vulnerability in the wp_untrash_post_comments function in wp-includes/post.php in WordPress before 4.2.4 allows remote attackers to execute arbitrary SQL commands via a comment that is mishandled after retrieval from the trash. 
-    - Vulnerability types: CVE: 2015-2213. SQL Injection. 
+1. Title: Authenticated Cross-Site scripting (XSS) in update-core.php (ID: 8716)
+  - [ ] Summary: 
+    - Vulnerability types: XSS, CVE: 2017-5488
     - Tested in version: 4.2
-    - Fixed in version: 4.2.4
+    - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33556/branches/4.2/src/wp-includes/post.php?contextall=1
-    - [Link 1](https://wpvulndb.com/vulnerabilities/8126)
-1. (Required) Authenticated Stored Cross-Site Scripting (XSS)(ID: 8111)
+  - [ ] Steps to recreate:
+  	1. Edit any plugins name to be some form of script (contained within script tags)
+	2. Navigate to to wp-admin/update-core.php
+  - [ ] Affected source code: https://core.trac.wordpress.org/browser/trunk/src/wp-includes/shortcodes.php
+    - [Link 1](https://wpvulndb.com/vulnerabilities/8716)
+1. Title: Authenticated Stored Cross-Site Scripting (XSS)(ID: 8111)
   - [ ] Summary: Allows user with posting capability to compromise website. The attacker would insert specially formatted HTML containing JavaScript on a WordPress page or post. Some special configurations may allow posting or editing page content for unauthenticated users. 
     - Vulnerability types: XSS, CVE: 2015-5622,5623
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
+  
   - [ ] Steps to recreate: 
-	1. Input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into a page or post.
-	2. XSS will execute when an administrator views the page.
-  - [ ] Affected source code:
+	1. Create new page/pos
+	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
+	3. XSS will execute when an administrator views the page.
+  - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
