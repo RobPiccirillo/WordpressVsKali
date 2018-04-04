@@ -21,9 +21,9 @@ Time spent: **X** hours spent in total
 	4. When you go to the forum with the comment, a pop up will happen (if that's what you 		made your code do).
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
-1. Title: Authenticated Cross-Site scripting (XSS) in update-core.php (ID: 8716)
-  - [ ] Summary: 
-    - Vulnerability types: XSS, CVE: 2017-5488
+2. Title: Authenticated Cross-Site scripting (XSS) in update-core.php (ID: 8716)
+  - [ ] Summary: Multiple cross-site scripting (XSS) vulnerabilities in wp-admin/update-core.php in WordPress before 4.7.1 allow remote attackers to inject arbitrary web script or HTML via both the name and header of a plugin.
+    - Vulnerability types: XSS, CVE: 2017-5488
     - Tested in version: 4.2
     - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
@@ -32,14 +32,14 @@ Time spent: **X** hours spent in total
 	2. Navigate to to wp-admin/update-core.php
   - [ ] Affected source code: https://core.trac.wordpress.org/browser/trunk/src/wp-includes/shortcodes.php
     - [Link 1](https://wpvulndb.com/vulnerabilities/8716)
-1. Title: Authenticated Stored Cross-Site Scripting (XSS)(ID: 8111)
+3. Title: Authenticated Stored Cross-Site Scripting (XSS)(ID: 8111)
   - [ ] Summary: Allows user with posting capability to compromise website. The attacker would insert specially formatted HTML containing JavaScript on a WordPress page or post. Some special configurations may allow posting or editing page content for unauthenticated users. 
     - Vulnerability types: XSS, CVE: 2015-5622,5623
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  
-  - [ ] Steps to recreate: 
+  
+  - [ ] Steps to recreate: 
 	1. Create new page/pos
 	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
 	3. XSS will execute when an administrator views the page.
