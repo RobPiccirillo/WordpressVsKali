@@ -1,6 +1,6 @@
 # Project 7 - WordPress Pentesting
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 > Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
 
@@ -22,7 +22,7 @@ Time spent: **X** hours spent in total
 	
 	2. Make a comment with the XSS code (must be larger than 64kilobytes).
 	
-	a. <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  ZZZZZZZZZ...[64 kb]..ZZZ'></a>
+	a. such as ex:(<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  ZZZZZZZZZ...[64 kb]..ZZZ'></a>)
 	
 	3. Have it approved by admin.
 	
@@ -60,8 +60,7 @@ Time spent: **X** hours spent in total
  <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/PointlessThornyBobwhite' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
   
-  - [ ] Steps to recreate: 
-  
+  - [ ] Steps to recreate:
 	1. Create new page/pos
 	
 	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
