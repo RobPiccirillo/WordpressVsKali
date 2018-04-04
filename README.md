@@ -15,12 +15,19 @@ Time spent: **X** hours spent in total
   
   <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/GargantuanBelatedHedgehog' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
+  
   - [ ] Steps to recreate: 
+  
 	1. Go to wordpress forum
+	
 	2. Make a comment with the XSS code (must be larger than 64kilobytes).
+	
 	a. <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  ZZZZZZZZZ...[64 kb]..ZZZ'></a>
+	
 	3. Have it approved by admin.
+	
 	4. When you go to the forum with the comment, a pop up will happen (if that's what you 		made your code do).
+	
   - [ ] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
     
@@ -33,9 +40,13 @@ Time spent: **X** hours spent in total
   
 <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/ScornfulShimmeringHornbill' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>  
 
+
   - [ ] Steps to recreate:
+  
   	1. Edit any plugins name to be some form of script (contained within script tags)
+	
 	2. Navigate to to wp-admin/update-core.php
+	
   - [ ] Affected source code: https://core.trac.wordpress.org/browser/trunk/src/wp-includes/shortcodes.php
     - [Link 1](https://wpvulndb.com/vulnerabilities/8716)
     
@@ -48,10 +59,15 @@ Time spent: **X** hours spent in total
   
  <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/PointlessThornyBobwhite' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
+  
   - [ ] Steps to recreate: 
+  
 	1. Create new page/pos
+	
 	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
+	
 	3. XSS will execute when an administrator views the page.
+	
   - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
 
