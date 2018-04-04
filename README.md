@@ -7,11 +7,16 @@ Time spent: **4** hours spent in total
 ## Pentesting Report
 
 1. Title: Unauthenticated Stored Cross-Site Scripting (XSS) (ID: 7945)
-  - [ ] Summary: Uses an extremely long comment to truncate the comment when inserted into a database, thus allowing you to input a XSS injection.
-    - Vulnerability types: XSS
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
+
+- [ ] Summary: Uses an extremely long comment to truncate the comment when inserted into a database, thus allowing you to input a XSS injection.
+
+- Vulnerability types: XSS
+
+- Tested in version: 4.2
+
+- Fixed in version: 4.2.1
+
+- [ ] GIF Walkthrough: 
   
   <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/GargantuanBelatedHedgehog' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
@@ -30,9 +35,13 @@ Time spent: **4** hours spent in total
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
     
 2. Title: Authenticated Cross-Site scripting (XSS) in update-core.php (ID: 8716)
+
   - [ ] Summary: Multiple cross-site scripting (XSS) vulnerabilities in wp-admin/update-core.php in WordPress before 4.7.1 allow remote attackers to inject arbitrary web script or HTML via both the name and header of a plugin.
+  
     - Vulnerability types: XSS, CVE: 2017-5488
+    
     - Tested in version: 4.2
+    
     - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
   
@@ -49,11 +58,16 @@ Time spent: **4** hours spent in total
     - [Link 1](https://wpvulndb.com/vulnerabilities/8716)
     
 3. Title: Authenticated Stored Cross-Site Scripting (XSS)(ID: 8111)
+
   - [ ] Summary: Allows user with posting capability to compromise website. The attacker would insert specially formatted HTML containing JavaScript on a WordPress page or post. Some special configurations may allow posting or editing page content for unauthenticated users. 
-    - Vulnerability types: XSS, CVE: 2015-5622,5623
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.3
-  - [ ] GIF Walkthrough: 
+
+- Vulnerability types: XSS, CVE: 2015-5622,5623
+
+- Tested in version: 4.2
+
+- Fixed in version: 4.2.3
+
+- [ ] GIF Walkthrough: 
   
  <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/PointlessThornyBobwhite' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
