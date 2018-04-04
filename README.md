@@ -21,9 +21,7 @@ Time spent: **4** hours spent in total
 	1. Go to wordpress forum
 	
 	2. Make a comment with the XSS code (must be larger than 64kilobytes).
-	
-	a. such as ex:(<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  ZZZZZZZZZ...[64 kb]..ZZZ'></a>)
-	
+		
 	3. Have it approved by admin.
 	
 	4. When you go to the forum with the comment, a pop up will happen (if that's what you 		made your code do).
@@ -63,7 +61,7 @@ Time spent: **4** hours spent in total
   - [ ] Steps to recreate:
 	1. Create new page/pos
 	
-	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
+	2. Using HTML editor, input any form of XSS code into the page/post.
 	
 	3. XSS will execute when an administrator views the page.
 	
