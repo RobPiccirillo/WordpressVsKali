@@ -38,7 +38,9 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  <iframe src='https://gfycat.com/ifr/CelebratedGraveIcelandgull' frameborder='0' scrolling='no' width='928' height='476' allowfullscreen></iframe>
+  
+ <iframe src='https://gfycat.com/ifr/CelebratedGraveIcelandgull' frameborder='0' scrolling='no' width='928' height='476' allowfullscreen></iframe>
+  
   - [ ] Steps to recreate: 
 	1. Create new page/pos
 	2. Using HTML editor, input any form of XSS code (such as <a href="[caption code=">]</a><a title=" onmouseover=alert('test')  ">link</a>) into the page/post.
