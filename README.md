@@ -39,7 +39,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
   
- <iframe src='https://gfycat.com/ifr/CelebratedGraveIcelandgull' frameborder='0' scrolling='no' width='928' height='476' allowfullscreen></iframe>
+ <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/PointlessThornyBobwhite' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
   
   - [ ] Steps to recreate: 
 	1. Create new page/pos
@@ -47,24 +47,7 @@ Time spent: **X** hours spent in total
 	3. XSS will execute when an administrator views the page.
   - [ ] Affected source code: https://core.trac.wordpress.org/changeset/33359
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
+
 
 ## Assets
 
