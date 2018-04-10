@@ -46,7 +46,9 @@ title='Video Walkthrough' width='' alt='Video Walkthrough' />
     - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
   
-https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit4.gif
+<img
+src='https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit4.gif'
+title='Video Walkthrough' width='' alt='Video Walkthrough' />  
 
   - [ ] Steps to recreate:
   
@@ -69,7 +71,9 @@ https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit4.gif
 
 - [ ] GIF Walkthrough: 
   
-https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit3.gif  
+<img
+src='https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit3.gif'
+title='Video Walkthrough' width='' alt='Video Walkthrough' />  
   
   - [ ] Steps to recreate:
 	1. Create new page/pos
