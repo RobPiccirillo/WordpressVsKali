@@ -19,7 +19,7 @@ Time spent: **4** hours spent in total
 - [ ] GIF Walkthrough: 
   
 <img
-src='https://github.com/RobPiccirillo/WordpressVsKali/edit/master/exploit1.gif'
+src='https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit1.gif'
 title='Video Walkthrough' width='' alt='Video Walkthrough' />  
   
   - [ ] Steps to recreate: 
