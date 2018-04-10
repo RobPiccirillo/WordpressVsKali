@@ -72,7 +72,7 @@ title='Video Walkthrough' width='' alt='Video Walkthrough' />
 - [ ] GIF Walkthrough: 
   
 <img
-src='https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit3.gif'
+src='https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit3XSSHack.gif'
 title='Video Walkthrough' width='' alt='Video Walkthrough' />  
   
   - [ ] Steps to recreate:
