@@ -46,8 +46,7 @@ title='Video Walkthrough' width='' alt='Video Walkthrough' />
     - Fixed in version: 4.7.1
   - [ ] GIF Walkthrough: 
   
-<div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/ScornfulShimmeringHornbill' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>  
-
+https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit4.gif
 
   - [ ] Steps to recreate:
   
@@ -70,8 +69,7 @@ title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 - [ ] GIF Walkthrough: 
   
- <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/PointlessThornyBobwhite' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
-  
+https://github.com/RobPiccirillo/WordpressVsKali/blob/master/exploit3.gif  
   
   - [ ] Steps to recreate:
 	1. Create new page/pos
