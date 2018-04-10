@@ -18,8 +18,9 @@ Time spent: **4** hours spent in total
 
 - [ ] GIF Walkthrough: 
   
-  <div style='position:relative;padding-bottom:54%'><iframe src='https://gfycat.com/ifr/GargantuanBelatedHedgehog' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0' allowfullscreen></iframe></div>
-  
+<img
+src='https://github.com/RobPiccirillo/WordpressVsKali/edit/master/exploit1.gif'
+title='Video Walkthrough' width='' alt='Video Walkthrough' />  
   
   - [ ] Steps to recreate: 
   
